@@ -8,8 +8,12 @@ import { Statistics } from './Statistics/Statistics';
 // third task
 import { FriendList } from './friendList/FriendList';
 import friends from '../data/friends.json'
-
 // four task
+import {TransactionHistory} from '../components/transactionHistory/TransactionHistory'
+import transactions from '../data/transactions.json'
+
+
+
 export const App = () => {
   return (
     <div className={css.main}> 
@@ -27,6 +31,7 @@ export const App = () => {
       title='Upload stats'
       />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
        </div>
   )  
   

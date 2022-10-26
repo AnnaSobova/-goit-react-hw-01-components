@@ -1,0 +1,20 @@
+.table{
+    width: 400px;
+    font-size: 15px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-collapse: separate;
+    border: 2px solid white;
+    
+}
+.thead {
+    background-color: rgb(54, 164, 186);
+    color: white;
+}
+tbody tr {
+    background-color: white;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(228, 228, 228);
+}
