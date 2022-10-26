@@ -1,0 +1,28 @@
+.item{
+    display: flex;
+    width: 400px;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    padding: 5px;
+}
+.statusOnLine{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(87, 219, 87);
+    margin: 15px;
+}
+.statusOffLine{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 15px;
+}
+.avatar{
+    margin-right: 15px;
+}
+.name{
+    
+}
