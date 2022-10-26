@@ -13,6 +13,7 @@
 }
 tbody tr {
     background-color: white;
+    color: rgb(117, 123, 123);
 }
 
 tbody tr:nth-child(2n) {
